@@ -8,6 +8,7 @@ npm-debug.log
 
 # Игнорировать файлы и папки, созданные Gulp
 dist/
+gulp/
 .tmp/
 gulpfile.js
 
