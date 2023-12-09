@@ -1,3 +1,9 @@
 .header {
-
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: calc(100% - $sidebar-width);
+  z-index: $z-index-header;
+  height: 3rem;
+  background-color: #444;
 }

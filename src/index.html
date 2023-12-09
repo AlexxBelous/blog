@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 @@include('html/head.html', {
 'title': 'Main page'
@@ -11,7 +11,11 @@
         @@include('html/sidebar.html')
     </aside>
     <main class="main">
-        @@include('html/body.html')
+
+        <div class="container">
+            @@include('html/body.html')
+        </div>
+
     </main>
     @@include('html/footer.html')
 </div>
