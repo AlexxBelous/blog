@@ -144,10 +144,15 @@ sup {
 /**
 * Общие параметры, шаблоны(заготовки) и вспомогательные классы
 */
+html {
+  font-size: 62.5%;
+}
+
 body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe\ UI, Roboto, Helvetica\ Neue, Arial, Noto\ Sans, sans-serif;
   background-color: #181818;
   color: #fff;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 /**
