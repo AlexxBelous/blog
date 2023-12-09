@@ -34,7 +34,10 @@
 * Подключение стилей отдельных блоков и секций
 */
 @import 'components/header';
-@import 'components/sidebar';
+@import 'components/sidebar/sidebar';
+@import 'components/sidebar/profile';
+@import 'components/sidebar/social';
+@import 'components/sidebar/btn';
 //home
 @import "components/home/main";
 @import 'components/footer';
